@@ -23,7 +23,7 @@
     "solid",
     "solid-video"
   ],
-  "name": "solid-plyr",
+  "name": "solid-plyr-nodash",
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@types/node": "^16.9.1",
@@ -48,7 +48,7 @@
   },
   "description": "A simple HTML5, YouTube and Vimeo player (Plyr) for SolidJS",
   "repository": {
-    "url": "https://github.com/git-ced/solid-plyr.git",
+    "url": "https://github.com/git-ced/solid-plyr-nodash.git",
     "type": "git"
   },
   "homepage": "https://solid-plyr.netlify.app/",
@@ -67,7 +67,6 @@
     }
   },
   "dependencies": {
-    "dashjs": "^4.1.0",
     "hls.js": "^1.0.10",
     "identity-obj-proxy": "^3.0.0",
     "plyr": "^3.6.8"

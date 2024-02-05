@@ -1,7 +1,5 @@
 name: Solid Plyr Deployment
 on:
-  pull_request:
-      types: [opened, synchronize]
   push:
     branches:
       - main
@@ -17,6 +15,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Use cached node_modules
         uses: actions/cache@v2
@@ -41,3 +40,6 @@ jobs:
         env:
           CI: true
 
+      - run: NPM publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -1,4 +1,7 @@
-# solid-plyr
+# solid-plyr-nodash
+
+(solid-plyr FORK WITHOUT DASHJS DEPENDENCY)
+
 > A simple HTML5, YouTube and Vimeo player (Plyr) for SolidJS
 
 [![NPM](https://img.shields.io/npm/v/solid-plyr.svg)](https://www.npmjs.com/package/solid-plyr)
