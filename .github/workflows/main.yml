@@ -1,4 +1,5 @@
 name: Solid Plyr Deployment
+
 on:
   push:
     branches:
